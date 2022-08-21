@@ -1,6 +1,6 @@
 # Google-Apps-Script
-Implements an auto-generated Google Form responses mail system using Google Apps Script
 
+Implements an auto-generated Google Form responses mail system using Google Apps Script
 
 This file has been created for the purpose of explaining the instructions on how to work with the apps script :
 
@@ -24,10 +24,10 @@ Save in your drive folder
 Copy-paste the code in the script editor linked to the spreadsheet
 (make the google form as specified in the order of the question,link it to the spreadsheet and go to it's script editor,copy-paste the code)
 
-In the script editor put the file ID of the created(by you) Google Doc in the file variable of the script) 
+In the script editor put the file ID of the created(by you) Google Doc in the file variable of the script)
 where DriveApp.getFileById() function is mentioned ( fill your Google Doc ID there)
 
-In the script editor put the folder ID whereyou had saved the Google Doc (ID of your drive) 
+In the script editor put the folder ID whereyou had saved the Google Doc (ID of your drive)
 where DriveApp.getFolderById() function is mentioned ( fill your ID of the folder containing the Doc file there)
 
 For the script editor code you must create a trigger for the function autoFillGoogleDocFromForm from the spreadsheet
@@ -61,7 +61,7 @@ There is another function named autoFillGoogleDocFromForm which does the same as
 ( This is necessary as we need to append names of students who have same pin-code ) so it will be enough to replace folder and file just like you did previously
 and it will work
 
-In the function pin_code_same it executes it directly with the spreadsheet 
+In the function pin_code_same it executes it directly with the spreadsheet
 
 So, we must create a trigger for the function pin_code_same from the spreadsheet.
 Make sure you enter the option to generate it on the form submission option in the trigger.
